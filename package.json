@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Recursero Digital - Matemática Interactiva para Primaria",
   "scripts": {
-    "build": "npm run install:backend && npm run build:backend && npm run build:frontend",
-    "install:backend": "cd backend && npm install",
-    "install:frontend": "cd frontend/recursero-digital && npm install",
-    "build:backend": "cd backend && npm run build",
-    "build:frontend": "cd frontend/recursero-digital && npm run build"
+  "build": "npm run install:backend && npm run build:backend && npm run install:frontend && npm run build:frontend",
+  "install:backend": "cd backend && npm install",
+  "build:backend": "cd backend && npm run build",
+  "install:frontend": "cd frontend/recursero-digital && npm install",
+  "build:frontend": "cd frontend/recursero-digital && npm run build"
   },
   "dependencies": {
     "typescript": "^5.9.2"
