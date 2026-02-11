@@ -1,5 +1,6 @@
 {
   "name": "recursero-digital",
+   "private": true,
   "version": "1.0.0",
   "description": "Recursero Digital - Matemática Interactiva para Primaria",
   "main": "start.sh",
